@@ -1,4 +1,9 @@
+![Ran The Numbers](assets/card.png)
+
 # Ran The Numbers: the maths behind each video
+
+Watch: [YouTube @RanNumbers](https://www.youtube.com/@RanNumbers) ·
+[TikTok @rannumbers](https://www.tiktok.com/@rannumbers)
 
 Each Short answers one question people ask about their own money or odds,
 by running it thousands of times and checking the result against the exact

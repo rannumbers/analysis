@@ -10,7 +10,7 @@ first 90 (225.8), so swapping duplicates or buying those cards on their own
 saves most of the cost. Buying the last 10 directly costs 10 cards instead of
 about 293 openings. Two collectors who pool every duplicate need 728.8 openings
 between them for two full sets, 364.4 each instead of 518.7 (description only:
-it does not fit 45 seconds).
+it does not fit 34 seconds).
 
 ## How we ran it
 
@@ -56,7 +56,6 @@ it does not fit 45 seconds).
 | Hero collector, total | 516 | `Collector.total` |
 | Hero collector, repeats | 416 | `total − 100` |
 | Hero collector, last card | 92 openings | `lastCardWait` |
-| Simulated average, 1,000 collectors | shown on screen | `mean(totals)` |
 | Buying the last 10 directly | 10 cards, against 292.9 openings | arithmetic on `expectedLast` |
 | Two collectors pooling duplicates (description only) | 728.8 together, 364.4 each | `expectedOpeningsForSets(100, 2)`, checked by `poolOpenings` |
 
