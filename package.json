@@ -1,0 +1,14 @@
+{
+  "name": "ran-the-numbers-analysis",
+  "private": true,
+  "type": "module",
+  "repository": "https://github.com/rannumbers/analysis",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
